@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Környezetbarát Csomagküldés</title>
+    <link rel="stylesheet" href="IKT_beadando.css">
+</head>
+<body>
+    <header>
+        <h1>Környezetbarát Csomagküldő</h1>
+        <nav>
+            <a href="#fooldal">Főoldal</a>
+            <a href="#rolunk">Rólunk</a>
+            <a href="#szolgaltatasok">Szolgáltatások</a>
+            <a href="#fenntarthatosag">Fenntarthatóság</a>
+            <a href="#arak">Árak</a>
+            <a href="#kapcsolat">Kapcsolat</a>
+        </nav>
+    </header>
+
+    <div id="fooldal" class="fooldalClass">
+        <h2>Gyors és zöld szállítás</h2>
+        <p>Fenntartható csomagküldés, hogy Te is hozzájárulhass a környezetvédelemhez.</p>
+        <button onclick="scrollToSection('contact')">Kapcsolatfelvétel</button>
+    </div>
+
+    <div id="rolunk">
+        <h2>Rólunk</h2>
+        <h2>Feladatunk</h2>
+        <div id="csapatunk">
+            <h3>Csapattagok</h3>
+            <ul>
+                <li>Horváth-Somai Attila</li>
+                <li>Lápossi Máté</li>
+                <li>Sinka Róbert</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="szolgaltatasok">
+        <h2>Szolgáltatások</h2>
+        <p>Szöveg</p>
+    </div>
+
+    <div id="fenntarthatosag">
+        <h2>Fenntarthatóság</h2>
+        <p>Szöveg</p>
+    </div>
+
+    <div id="arak">
+        <h2>Árak és csomagok</h2>
+        <p>Szöveg</p>
+    </div>
+
+    <div id="kapcsolat">
+        <h2>Kapcsolat</h2>
+        <form>
+            <label for="nev">Név: </label>
+            <input type="text" name="nev" id="nev" required>
+
+            <label for="email">E-mail cím: </label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="uzenet">Üzenet: </label>
+            <textarea name="uzenet" id="uzenet" required>   </textarea>
+
+            <button type="submit" id="kuldesGomb">Küldés</button>
+        </form>
+    </div>
+
+    <footer>Alsó szöveg</footer>
+</body>
+</html>

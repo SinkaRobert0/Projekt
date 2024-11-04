@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: #333;
+    line-height: 1.5;
+}
+
+header{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.fooldalClass{
+    background-image: url('https://via.placeholder.com/1500');  /*Valami kép kell ide*/
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 64px 32px;
+}
+
+div{
+    text-align: center;
+    padding: 64px 32px;
+}
+
+#csapatunk ul{
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label, form input, form textarea, form button{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
