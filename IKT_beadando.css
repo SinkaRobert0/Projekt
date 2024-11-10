@@ -35,7 +35,7 @@ nav a{
 
 div{
     text-align: center;
-    padding: 64px 32px;
+    /*padding: 64px 32px;*/
 }
 
 #csapatunk ul{
@@ -67,4 +67,56 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
+}
+
+.leiras {
+    font-size: 25px;
+    color: #0b6011;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+.fejlec {
+    color: #4CAF50;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.lista {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.lista li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f9f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lista li:hover {
+    background-color: #4CAF50;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.lista li strong {
+    color: #4CAF50;
+    font-weight: bold;
+}
+.lista li:hover strong {
+    color: #edffe4;
+}
+
+.fejlec, .lista {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
