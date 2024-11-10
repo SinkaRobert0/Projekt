@@ -26,7 +26,7 @@ nav a{
 }
 
 .fooldalClass{
-    background-image: url('https://via.placeholder.com/1500');  /*Valami kép kell ide*/
+    background-image: url(hattercsik.jpg);  /*Valami kép kell ide*/
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -131,7 +131,7 @@ footer {
 #bemutatkozas {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: #dcf3dc;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -152,4 +152,35 @@ footer {
 #bemutatkozas strong {
     color: #4CAF50;
     font-weight: bold;
+}
+
+#feladatunk {
+    text-align: left;
+    padding: 40px 20px;
+    background-color: #e7f7e7;
+    border-right: 5px solid #4CAF50;
+    border-left: 5px solid #4CAF50;
+    margin-bottom: 30px;
+}
+
+#feladatunk h2{
+    font-size: 25px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#feladatunk p {
+    font-size: 23px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#feladatunk ul {
+    margin-left: 20px;
+}
+
+#feladatunk ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
