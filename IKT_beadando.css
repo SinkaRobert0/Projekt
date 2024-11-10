@@ -6,6 +6,7 @@
 }
 
 body{
+    background-color: #e2f5e2;
     color: #333;
     line-height: 1.5;
 }
@@ -95,7 +96,7 @@ footer {
 .lista li {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #f2f9f2;
+    background-color: #c9efc9;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -119,4 +120,11 @@ footer {
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#ultetettfa {
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
 }
