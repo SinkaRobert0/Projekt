@@ -99,10 +99,33 @@
 
     <div id="arak">
         <h2>Árak és csomagok</h2>
-        <p>Szöveg</p>
+    
+        <p>Csomag mérete:</p>
+        <div class="radio-group">
+            <label><input type="radio" name="meret" value="kis"> Kis méretű csomag</label>
+            <label><input type="radio" name="meret" value="kozepes"> Közepes méretű csomag</label>
+            <label><input type="radio" name="meret" value="nagy"> Nagy méretű csomag</label>
+        </div>
+    
+        <p>Csomag súlya:</p>
+        <div class="radio-group">
+            <label><input type="radio" name="suly" value="konnyu"> Könnyű csomag</label>
+            <label><input type="radio" name="suly" value="sulyosabb"> Súlyosabb csomag</label>
+            <label><input type="radio" name="suly" value="nehez"> Nehéz csomag</label>
+        </div>
+    
+        <p>Szállítás ideje:</p>
+        <div class="radio-group">
+            <label><input type="radio" name="szallitas" value="normal"> Normál tempójú kiszállítás (2-3 nap)</label>
+            <label><input type="radio" name="szallitas" value="gyors"> Extra gyors szállítás (másnap megérkezik)</label>
+        </div>
+    
+        <button id="szamitas">Ár számításához kattints ide!</button>
+        <div id="eredmeny"></div>
     </div>
 
     <div id="kapcsolat">
+        <br>
         <h2>Kapcsolat</h2>
         <form>
             <label for="nev">Név: </label>
