@@ -276,3 +276,7 @@ input, textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
 } 
+
+.ikon {
+    float: left;
+}
