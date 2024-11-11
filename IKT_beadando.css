@@ -124,9 +124,9 @@ footer {
 }
 
 #ultetettfa {
-    width: 300px;
+    width: 20%;
     float: right;
-    margin-right: 50px;
+    margin-right: 10%;
 }
 
 #bemutatkozas {
@@ -279,4 +279,16 @@ input, textarea {
 
 .ikon {
     float: left;
+}
+
+#tippekGomb{
+    padding: 10px 20px;
+    background-color: #2d9830;
+    color: #fff;
+    float: right;
+    font-size: 18px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    
+    
 }

@@ -1,3 +1,10 @@
+function scrollToSection() {
+    const section = document.getElementById("kapcsolat");
+    if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+    }
+}
+
 document.getElementById("szamitas").addEventListener("click", function() {
     let meret = document.querySelector('input[name="meret"]:checked');
     let suly = document.querySelector('input[name="suly"]:checked');
@@ -42,4 +49,22 @@ document.getElementById("kuldesGomb").addEventListener("click", () => {
         alert("Köszönjük, munkatársunk hamarosan visszajelzést küld.")
     }
 })
+
+
+function showRandomTip() {
+    const tips = [
+        "Használj újrahasznosított anyagokat a csomagoláshoz, ezzel csökkentheted a hulladékot és az ökológiai lábnyomot!",
+        "Válassz elektromos vagy alacsony kibocsátású szállítási lehetőségeket a környezet megóvása érdekében!",
+        "Minimalizáld a csomagolást, hogy kevesebb anyagot kelljen kidobni a szállítás után!",
+        "Ahol lehetséges, kerüld az egyszer használatos műanyagokat, és válassz komposztálható csomagolást!",
+        "Támogasd a helyi kisvállalkozásokat, hogy csökkentsd a szállítás során keletkező szén-dioxid-kibocsátást!",
+        "Gondold újra a szállítási igényeidet: használd ki a csoportos szállítást, hogy csökkentsd a járműforgalmat!",
+        "Mindig győződj meg róla, hogy a csomagolás újrahasznosítható vagy lebomló anyagokból készüljön!",
+        "Élj a digitális számlázás lehetőségével, ezzel csökkentheted a papírfelhasználást!",
+        "Használj kevesebb töltőanyagot, és csomagolj takarékosan, hogy kisebb dobozokban is elférjen a szállítmány!",
+    ];
+
+    const randomIndex = Math.floor(Math.random() * tips.length);
+    alert(tips[randomIndex]);
+}
 
