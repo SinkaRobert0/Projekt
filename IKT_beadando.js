@@ -29,3 +29,9 @@ document.getElementById("szamitas").addEventListener("click", function() {
         document.getElementById("eredmeny").innerText = "Kérjük, válassza ki az összes opciót!";
     }
 });
+
+
+//küldés gomb alert
+document.getElementById("kuldesGomb").addEventListener("click", () => {
+    alert("Köszönjük, munkatársunk hamarosan visszajelzést küld.")
+})
