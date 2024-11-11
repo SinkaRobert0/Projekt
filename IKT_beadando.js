@@ -32,6 +32,14 @@ document.getElementById("szamitas").addEventListener("click", function() {
 
 
 //küldés gomb alert
+let nev = document.getElementById("nev")
+let email = document.getElementById("email")
+let uzenet = document.getElementById("uzenet")
 document.getElementById("kuldesGomb").addEventListener("click", () => {
-    alert("Köszönjük, munkatársunk hamarosan visszajelzést küld.")
+    if (nev.value == "" || email.value == "" || uzenet.value == "") {
+        alert("Valamelyik mező(k) üres(ek), kérem töltse ki!")
+    } else {
+        alert("Köszönjük, munkatársunk hamarosan visszajelzést küld.")
+    }
 })
+
